@@ -33,5 +33,7 @@ fi
 echo "[cont-init.d] Setting permissions this may take some time"
 chown -R abc:abc \
   /config
+chown -R abc:abc \
+  /app/pyload/module/plugins
 chown abc:abc \
- /downloads
+  /downloads
